@@ -1,0 +1,355 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171a21;
+    color: #fff;
+  }
+  
+  a {
+    color: #66c0f4;
+    text-decoration: none;
+  }
+  
+  /* Encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1b2838;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .login-section a {
+    margin-right: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #66c0f4;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  /* Banner destacado */
+  .banner {
+    text-align: center;
+    padding: 40px;
+    background-color: #0e141d;
+  }
+  
+  .banner h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .buy-button {
+    padding: 10px 20px;
+    background-color: #66c0f4;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  /* Sección de juegos destacados */
+  .featured-games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #141e28;
+  }
+  
+  .featured-games h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .game {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .game img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .game h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .game p {
+    margin-bottom: 10px;
+  }
+  
+  /* Sección de ofertas y descuentos */
+  .deals-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #1d2c3d;
+  }
+  
+  .deals-section h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .deal {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .deal img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .deal h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .deal p {
+    margin-bottom: 10px;
+  }
+  
+  /* Sección de categorías de juegos */
+  .game-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #0f1a25;
+  }
+  
+  .game-categories h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .category {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .category h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Sección de testimonios de usuarios */
+  .user-testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #192936;
+  }
+  
+  .user-testimonials h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial blockquote {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial cite {
+    font-style: italic;
+  }
+  
+  /* Sección de noticias y novedades */
+  .news-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #0f1a25;
+  }
+  
+  .news-section h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .news-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .news-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .news-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .news-item p {
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    padding: 10px 20px;
+    background-color: #66c0f4;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #0e141d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .language-currency {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .language-currency select {
+    margin-right: 10px;
+  }
+
+  .menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+/* Estilos para el menú responsivo */
+@media screen and (max-width: 1020px) {
+  nav ul {
+    display: none;
+    flex-direction: column; /* Añade esta línea para mostrar los enlaces en columna */
+    text-align: center; /* Añade esta línea para centrar los enlaces */
+    margin-top: 20px; /* Añade esta línea para separar el menú del toggle */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Añade este espacio entre los enlaces */
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Agrega estos estilos para mostrar/ocultar el menú al hacer clic en el toggle */
+  .menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+
+  .menu-toggle.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+
+  /* Estilos adicionales para mostrar el menú cuando el toggle está activo */
+  .menu-toggle.active + nav ul {
+    display: flex;
+  }
+}
